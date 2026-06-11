@@ -25,7 +25,7 @@
                     </div>
                 @endif
             </div>
-                <form action="{{url('/feed')}}" class=" text-center pt-5 pb-20" method="POST">
+                <form action="{{ route('feed.form') }}" class=" text-center pt-5 pb-20" method="POST">
                     @csrf
                     <span class="text-3xl text-extrabold text-gray-200">Hey, </span>
                     <span class="text-3xl bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent  font-bold mb-4">{{$name}}</span><br>
@@ -47,7 +47,7 @@
                 <a href="https://wa.me/9944370597" class="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent  font-bold mb-4">Vicky..!</a>
             </div>
             <div class="absolute bottom-3 w-full text-center mb-4">
-                <span class="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent text-sm">Copyright © 2026 - All rights reserved.</span>
+<span class="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent text-sm">Copyright © 2026 - All rights reserved.</span>
             </div>
             <div class="absolute bottom-0 w-full text-center mb-2">
                 <span class="text-gray-400 text-sm">Designed By - ABUBAKKAR SIDHIK</span>
