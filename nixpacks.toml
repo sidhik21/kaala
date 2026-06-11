@@ -9,8 +9,11 @@ nixPkgs = [
   "php84Extensions.ctype",
   "php84Extensions.fileinfo",
   "php84Extensions.bcmath",
+<<<<<<< HEAD
   "php84Extensions.curl",
   "php84Extensions.openssl",
+=======
+>>>>>>> 0008c9e (fix: force HTTPS on production)
   "composer"
 ]
 
