@@ -18,7 +18,7 @@
                 <p class="text-gray-300 mt-4">Login fast, I'm waiting for you!</p>
             </div>
             <div>
-                <form action="" class=" text-center pt-5 pb-20" method="POST">
+                <form action="{{ route('login') }}" class=" text-center pt-5 pb-20" method="POST">
                     @csrf
                     <input name="name" class="border rounded-2xl bg-transparent bg-orange/30 backdrop-blur-sm border-orange-300 hover:border-orange-500 text-orange-500 px-6 py-2 text-sm  my-4" type="text" placeholder="Username"><br>
                     <input name="password" class="border rounded-2xl bg-transparent bg-orange/30 backdrop-blur-sm border-orange-300 hover:border-orange-500 text-orange-500 px-6 py-2 text-sm  my-4" type="password" placeholder="Password"><br>
