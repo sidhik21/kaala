@@ -68,7 +68,7 @@ class KaalaController extends Controller
 
             Kaala is happy now! 🐶
         ", function ($message) {
-            $message->to('viki24102003@gmail.com')
+            $message->to('kaalaoff21@gmail.com')
                     ->subject('🐾 Kaala has been fed!');
         });
             return redirect()->route('thankyou');
