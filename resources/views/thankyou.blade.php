@@ -23,7 +23,7 @@
             </div>
             <div class="absolute w-full bottom-10 text-center mb-6">
                 <span class="text-extrabold text-gray-200 mt-4">I will be happy :) By - </span>
-                <a href="https://wa.me/9944370597" class="shadow-lg bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent  font-bold mb-4">Vicky..!</a>
+                <span href="https://wa.me/9944370597" class="shadow-lg bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent  font-bold mb-4">Vicky..!</span>
             </div>
             <div class="absolute bottom-3 w-full text-center mb-4">
                 <span class="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent text-sm">Copyright © 2026 - All rights reserved.</span>
