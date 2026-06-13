@@ -17,7 +17,7 @@
             <div class="text-center my-5">
                 <span class="text-6xl bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent font-bold animate-pulse animate-infinite "> Thank you :)</span>
                 <p class="text-gray-300 mt-6">Wow! Looks like you're a great person!</p>
-                <a href="{{route('login')}}" class=" rounded-2xl bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 font-bold hover:scale-105 px-10 mt-4 py-2">Logout</a>
+                <button href="{{route('login')}}" class=" rounded-2xl bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 font-bold hover:scale-105 px-10 mt-4 py-2">Logout</button>
             </div>
             <div>
             </div>
